@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Dinamikus Teendő Lista</title>
+    <style>
+
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-top: 50px;
+            background-color: #f4f4f9;
+        }
+
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            width: 300px;
+        }
+
+        h2 { text-align: center; color: #333; }
+
+        .input-group {
+            display: flex;
+            gap: 5px;
+            margin-bottom: 20px;
+        }
+
+        input {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            padding: 8px 12px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover { background-color: #218838; }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #eee;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        li:hover { background-color: #f9f9f9; }
+
+        .kesz {
+            text-decoration: line-through;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Teendőim</h2>
+    
+    <div class="input-group">
+        <input type="text" id="feladatInput" placeholder="Új feladat...">
+        <button onclick="hozzaadas()">Hozzáadás</button>
+    </div>
+
+    <ul id="lista">
+        </ul>
+</div>
+
+<script>
+
+    function hozzaadas() {
+        const inputMezo = document.getElementById('feladatInput');
+        const lista = document.getElementById('lista');
+        const szoveg = inputMezo.value.trim();
+
+        if (szoveg === "") {
+            alert("Kérlek, írj be valamit!");
+            return;
+        }
+ 
+        const ujElem = document.createElement('li');
+        ujElem.textContent = szoveg;
+
+        
+        ujElem.onclick = function() {
+            
+            this.classList.toggle('kesz');
+        };
+
+        lista.appendChild(ujElem);
+        inputMezo.value = "";
+        inputMezo.focus(); 
+    }
+
+    document.getElementById('feladatInput').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            hozzaadas();
+        }
+    });
+</script>
+
+</body>
+</html>
