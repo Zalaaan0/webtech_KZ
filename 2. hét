@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajnokok Ligája</title>
+</head>
+<body>
+    <h1>Bajnokok ligája</h1>
+
+    <h3>Bevezetés</h3>
+    <p>A 2025–26-os UEFA Bajnokok Ligája-idény ismét Európa legerősebb klubcsapatait vonultatja fel, és a megújult lebonyolítási rendszer továbbra is izgalmas, kiszámíthatatlan mérkőzéseket hoz. A sorozat második éve zajlik az úgynevezett „ligafázisos” formátumban, amelyben a korábbi csoportkör helyett egy nagy, 36 csapatos alapszakasz dönt a kieséses szakaszba jutásról.</p>
+    <h3>Új rendszer, több rangadó</h3>
+    <p>A ligafázisban minden csapat nyolc különböző ellenféllel mérkőzik meg – négy hazai és négy idegenbeli találkozón. Az első nyolc helyezett automatikusan bejut a nyolcaddöntőbe, míg a 9–24. helyen végző együttesek rájátszásban harcolnak a továbbjutásért. Ez a rendszer több rangadót és kevesebb „tét nélküli” mérkőzést eredményez.</p>
+    <h3>Fiatal tehetségek és tapasztalt sztárok</h3>
+    <p>Az idei kiírás egyik érdekessége a fiatal játékosok előretörése. Több topklubban is kulcsszerepet kapnak a húszas éveik elején járó labdarúgók, akik bátran felveszik a versenyt a rutinos világsztárokkal. A Bajnokok Ligája hagyományosan az a színtér, ahol új csillagok születnek, és az idei szezon sem kivétel.</p>
+    <h3>A döntő felé vezető út</h3>
+    <p>A kieséses szakasz tavasszal kezdődik, és a párharcok oda-visszavágós rendszerben dőlnek el. A döntőt 2026 májusában rendezik, amely ismét a klubfutball egyik legnézettebb sporteseménye lesz világszerte. A Bajnokok Ligája nem csupán trófea: presztízs, történelem és gazdasági jelentőség is társul hozzá, így minden résztvevő számára kiemelt cél a minél jobb szereplés.</p>
+
+    <h4>Résztvevő csapatok:</h4>
+    <ul>
+        <li>Liverpool</li>
+        <li>Arsenal</li>
+        <li>Manchester City</li>
+        <li>Chelsea</li>
+        <li>Newcastle United</li>
+        <li>Tottenham Hotspur</li>
+        <li>Barcelona</li>
+        <li>Real Madrid</li>
+        <li>Atlético Madrid</li>
+        <li>Athletic Club (Bilbao)</li>
+        <li>Villarreal</li>
+        <li>Napoli</li>
+        <li>Inter Milan</li>
+        <li>Atalanta</li>
+        <li>Juventus</li>
+        <li>Bayern München</li>
+        <li>Bayer Leverkusen</li>
+        <li>Eintracht Frankfurt</li>
+        <li>Borussia Dortmund</li>
+        <li>Paris Saint-Germain</li>
+        <li>Marseille</li>
+        <li>Monaco</li>
+        <li>PSV Eindhoven</li>
+        <li>Ajax</li>
+        <li>Sporting CP</li>
+        <li>Union Saint-Gilloise</li>
+        <li>Galatasaray</li>
+        <li>Slavia Praha</li>
+        <li>Olympiacos</li>
+        <li>Bodø/Glimt</li>
+        <li>Kairat Almaty</li>
+        <li>Pafos FC</li>
+        <li>Qarabağ FK</li>
+    </ol>
+
+    <h4>Továbbjutó csapatok: </h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Helyezés</th>
+                <th>Csapat</th>
+                <th>Mérkőzés</th>
+                <th>Pontszám</th>
+                <th>Gólkülönbség</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Arsenal</td>
+                <td>8</td>
+                <td>24</td>
+                <td>+19</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Bayern München</td>
+                <td>8</td>
+                <td>21</td>
+                <td>+14</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Liverpool</td>
+                <td>8</td>
+                <td>18</td>
+                <td>+12</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Tottenham Hotspur</td>
+                <td>8</td>
+                <td>17</td>
+                <td>+10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Barcelona</td><td>8</td><td>16</td><td>+8</td></tr>
+            <tr><td>6</td><td>Chelsea</td><td>8</td><td>16</td><td>+7</td></tr>
+            <tr><td>7</td><td>Sporting CP</td><td>8</td><td>16</td><td>+6</td></tr>
+            <tr><td>8</td><td>Manchester City</td><td>8</td><td>16</td><td>+6</td></tr>
+    
+            <tr><td>9</td><td>Real Madrid</td><td>8</td><td>15</td><td>+9</td></tr>
+            <tr><td>10</td><td>Inter Milan</td><td>8</td><td>15</td><td>+8</td></tr>
+            <tr><td>11</td><td>Paris Saint-Germain</td><td>8</td><td>14</td><td>+10</td></tr>
+            <tr><td>12</td><td>Newcastle United</td><td>8</td><td>14</td><td>+10</td></tr>
+            <tr><td>13</td><td>Juventus</td><td>8</td><td>13</td><td>+4</td></tr>
+            <tr><td>14</td><td>Atlético Madrid</td><td>8</td><td>13</td><td>+2</td></tr>
+            <tr><td>15</td><td>Atalanta</td><td>8</td><td>13</td><td>0</td></tr>
+            <tr><td>16</td><td>Bayer Leverkusen</td><td>8</td><td>12</td><td>-1</td></tr>
+            <tr><td>17</td><td>Borussia Dortmund</td><td>8</td><td>11</td><td>+2</td></tr>
+            <tr><td>18</td><td>Olympiacos</td><td>8</td><td>11</td><td>-4</td></tr>
+            <tr><td>19</td><td>Club Brugge</td><td>8</td><td>10</td><td>-2</td></tr>
+            <tr><td>20</td><td>Galatasaray</td><td>8</td><td>10</td><td>-2</td></tr>
+            <tr><td>21</td><td>AS Monaco</td><td>8</td><td>10</td><td>-6</td></tr>
+            <tr><td>22</td><td>Qarabag</td><td>8</td><td>10</td><td>-8</td></tr>
+            <tr><td>23</td><td>Bodø/Glimt</td><td>8</td><td>9</td><td>-1</td></tr>
+            <tr><td>24</td><td>Benfica</td><td>8</td><td>9</td><td>-2</td></tr>
+        </tbody>
+    </table>
+    <br>
+    <h3>A címvédő csapat a: <a href="https://www.psg.fr/en" target="_blank">Paris Saint-Germain</a></h3>
+    <br>
+    <p><img src="psg.jpg" alt="Paris Saint-Germain"></p>
+
+</body>
+</html>
